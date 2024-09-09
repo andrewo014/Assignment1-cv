@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: #4D7A5A;
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #4D7A5A;
+    border-top: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.splash {
+    background-color: #f0f0f0;
+}
+
+.splash h1 {
+    font-family: "Tenor Sans", sans-serif;
+    font-size: xx-large;
+    color: #8b6508;
+    text-align: center;
+}
+
+.splash img {
+    border: 5px solid #4D7A5A;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #8b6508;
+}
+
+.tagLine {
+    font-size: large;
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+hr {
+    border: 1px solid;
+    width: 80%;
+    
+}
+
+h2 {
+    font-family: "Tenor Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8b6508;
+}
+
+.education{
+    text-align: center;
+}
+
+.university strong{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: larger;
+    display: block;
+    text-align: center;
+}
+.university {
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+ul {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.skills ul {
+    text-align: center;
+    list-style-type: none;
+    font-size: large;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px 20px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    
+}
+
+dt {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 70px;
+}
+
+dd {
+    text-align: right;
+    margin-right: 70px;
+}
+
+a {
+    color: #654321;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.three-col h3 {
+    text-align: center;
+}
+
+.card {
+    background-color: #4D7A5A;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 30);
+}
+
+.project-image {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 30);
+}
+
+.one-col label {
+    margin-bottom: 5px;
+    color: #8b6508;
+    font-family: "Tenor Sans", sans-serif;
+}
+
+.one-col input[type="text"],
+.one-col input[type="email"],
+.one-col textarea {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.one-col input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4D7A5A;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.one-col input[type="submit"]:hover {
+    background-color: #8b6508;
+}
